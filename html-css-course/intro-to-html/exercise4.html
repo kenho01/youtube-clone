@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Challenge Exercises (4) </title> 
+    <style>
+
+        .search-result{
+            margin-left: 4px;
+            margin-right: 4px;
+            font-size: 18px;
+        }
+
+        .back-button{
+            font-style: Arial;
+            font-size: 18px;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            border-radius: 6px;
+            border-width: 1px;
+            margin-right: 16px;
+            margin-bottom: 20px;
+        }
+
+        .next-button{
+            font-style: Arial;
+            font-size: 18px;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            border-radius: 6px;
+            border-width: 1px;
+            margin-left: 16px;
+            cursor: pointer
+        }
+
+        .stretch-button{
+            font-size: 12px;
+            color: white;
+            background: green;
+            border: none;
+            padding-top: 4px;
+            padding-left: 6px;
+            padding-right: 6px;
+            padding-bottom: 4px;
+            margin-bottom: 20px;
+            transition: padding-top 1s, padding-bottom 1s,
+            padding-left 1s, padding-right 1s;
+        }
+
+        .stretch-button:hover{
+            cursor: pointer;
+            padding-top: 18px;
+            padding-right: 36px;
+            padding-bottom: 18px;
+            padding-left: 36px;
+
+        }
+
+        .click-3d{
+            font-size: 12px;
+            color: white;
+            background: green;
+            border: none;
+            padding-top: 4px;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-bottom: 4px;  
+            margin-bottom: 20px;
+            cursor: pointer;  
+            box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+        }
+
+        .click-3d:active{
+            margin-top: 3px;
+            margin-left: 3px;
+            box-shadow: none;
+        }
+
+        .button-123{
+            font-size: 12px;
+            color: white;
+            background: green;
+            border: none;
+            padding-top: 8px;
+            padding-left: 15px;
+            padding-bottom: 8px;
+            padding-right: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+            cursor: pointer;
+            transition: padding-left 0.5s, padding-right 0.5s;
+        }
+
+        .button-123:hover{
+            padding-left: 25px;
+            padding-right: 25px;
+            /* set margin to 0 so other buttons do not move when hover over*/
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+    </style>
+    </head>
+
+    <body>
+        <button class="back-button" > Back </button>
+        <a class="search-result", href="https://www.google.com/"> 1 </a>
+        <a class="search-result", href="https://www.google.com/"> 2 </a>
+        <a class="search-result", href="https://www.google.com/"> 3 </a>
+        <a class="search-result", href="https://www.google.com/"> 4 </a>
+        <a class="search-result", href="https://www.google.com/"> 5 </a>
+        <button class="next-button"> Next </button>
+
+        <br> 
+        <button class="stretch-button"> Stretch </button>
+
+        <br>
+
+        <button class= "click-3d"> Shadow </button>
+
+        <br>
+
+         <button class="button-123"> One </button>
+         <button class="button-123"> Two </button> 
+         <button class="button-123"> Three </button>
+    
+    </body>
+</html>
